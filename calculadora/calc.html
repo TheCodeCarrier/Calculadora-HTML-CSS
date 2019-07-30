@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Calculadora CSS</title>
+	<link type="text/css" rel="stylesheet" href="estilocalc.css"/>
+    <link rel="icon" href="calculadora.ico" type="image/x-icon" />
+    <script src="calculadora.js"></script>
+</head>
+<body>
+	
+<div class="calculadora">
+	<input type="text" id="visor" value="0" readonly>
+  
+    <input type="button" id="bnada" value="&#128169;" class="crap" onclick="coco('&#128169;')" />
+    <input type="button" id="bmc" value="mc" class="darkergray" onclick="memoryclear()" />
+    <input type="button" id="bm+" value="m&plus;" class="darkergray" onclick="memorymais()" />
+    <input type="button" id="bm-" value="m&minus;" class="darkergray" onclick="memorymenos()" />
+    <input type="button" id="bms" value="ms" class="darkergray" onclick="memorystore()" />
+    <input type="button" id="bC" value="C" class="darkergray" onclick="limpa()" />
+    <input type="button" id="b+-" value="⁺∕₋" class="darkergray" onclick="maismenos()"/>
+    <input type="button" id="b%" value="&#37;" class="darkergray" onclick="porcento()" />
+    <input type="button" id="b/" value="&divide;" class="orange" onclick="dividido()"/>
+
+    <input type="button" id="belevado2" value="x&sup2;" class="darkergray" onclick="elevado2()" />
+    <input type="button" id="belevado3" value="x&sup3;" class="darkergray" onclick="elevado3()" />
+    <input type="button" id="bxy" value="xᵞ" class="darkergray" onclick="elevadoy()"/>
+    <input type="button" id="bex" value="e&#735;" class="darkergray" onclick="elevadoeuler()"/>
+    <input type="button" id="b10x" value="10&#735;" class="darkergray" onclick="elevado10()" />
+    <input type="button" id="bckspc" value="←" class="darkergray" onclick="backspace()" />
+    <input type="button" id="b7" value="7" onclick="N(7)"/>
+    <input type="button" id="b8" value="8" onclick="N(8)"/>
+    <input type="button" id="b9" value="9" onclick="N(9)"/>
+    <input type="button" id="b*" value="&times;" class="orange" onclick="vezes()"/>
+
+    <input type="button" id="b1/x" value="1/x" class="darkergray" onclick="barraxis()" />
+    <input type="button" id="braizquadrada" value="&#8730;x" class="darkergray" onclick="sqrt()" />
+    <input type="button" id="braizcubica" value="&#8731;x" class="darkergray" onclick="cbcrt()" />
+    <input type="button" id="braizx" value="&#735;&#8730;&#7527;" class="darkergray" onclick="yrt()" />
+    <input type="button" id="bln" value="Ln" class="darkergray" onclick="logarithm()" />
+    <input type="button" id="blog10" value="log&#8321;&#8320;" class="darkergray" onclick="logarithm10()"/>
+    <input type="button" id="b4" value="4" onclick="N(4)"/>
+    <input type="button" id="b5" value="5" onclick="N(5)"/>
+    <input type="button" id="b6" value="6" onclick="N(6)"/>
+    <input type="button" id="b-" value="&minus;" class="orange" onclick="menos()"/>
+
+    <input type="button" id="bx!" value="x!" class="darkergray" onclick="fatorial()" />
+    <input type="button" id="bsin" value="sin" class="darkergray" onclick="seno()" />
+    <input type="button" id="bcos" value="cos" class="darkergray" onclick="coseno()" />
+    <input type="button" id="btan" value="tan" class="darkergray" onclick="tangente()" />
+    <input type="button" id="be" value="e" class="darkergray" onclick="euler()" />
+    <input type="button" id="bee" value="EE" class="darkergray"/>
+    <input type="button" id="b1" value="1" onclick="N(1)"/>
+    <input type="button" id="b2" value="2" onclick="N(2)"/>
+    <input type="button" id="b3" value="3" onclick="N(3)"/>
+    <input type="button" id="b+" value="&plus;" class="orange" onclick="mais()"/>
+
+    <input type="button" id="brad" value="Rad" class="darkergray" onclick="rad()" />
+    <input type="button" id="bsinh" value="sinh" class="darkergray" onclick="sinh()" />
+    <input type="button" id="bcosh" value="cosh" class="darkergray" onclick="cosh()" />
+    <input type="button" id="btanh" value="tanh" class="darkergray" onclick="tanh()" />
+    <input type="button" id="bpi" value="&#960;" class="darkergray" onclick="pi();" />
+    <input type="button" id="brand" value="Rand" class="darkergray" onclick="aleatorio()" />
+    <input type="button" id="b0" value="0" class="zero" onclick="N(0)"/>
+    <input type="button" id="bponto" value="." onclick="virgula()" />
+    <input type="button" id="b=" value="&equals;" class="orange" onclick="igual()" />
+
+  
+
+
+</div>
+
+</body>
+
+</html>
